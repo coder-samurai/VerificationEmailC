@@ -15,7 +15,7 @@ setup(
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['Generator', 'smtplib', 'email'],
+    install_requires=['GeneratorFE', 'smtplib', 'email'],
     keywords=['python', 'email', 'random', 'smtplib'],
     classifiers=[
         "Development Status :: 1 - Planning",
