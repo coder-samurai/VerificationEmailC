@@ -8,14 +8,14 @@ DESCRIPTION = 'VerificationEmail for Python'
 # Setting up
 
 setup(
-    name="VerificationEmail",
+    name="VerificationEmailC",
     version=VERSION,
     author="SamuraiCoder",
     author_email="<aelboutaheri@gmail.com>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
     packages=find_packages(),
-    install_requires=['GeneratorFE', 'smtplib', 'email'],
+    install_requires=['GeneratorFEC'],
     keywords=['python', 'email', 'random', 'smtplib'],
     classifiers=[
         "Development Status :: 1 - Planning",
